@@ -5,9 +5,6 @@ Fabric-based Cobblemon server using Docker.
 ## Requirements
 - Docker + Docker Compose
 
-## IF ON WINDOWS
-- Docker Desktop
-
 ## Start
 docker compose up -d
 
