@@ -1,0 +1,22 @@
+# Cobblemon Server (Docker)
+
+Fabric-based Cobblemon server using Docker.
+
+## Requirements
+- Docker + Docker Compose
+
+## IF ON WINDOWS
+- Docker Desktop
+
+## Start
+docker compose up -d
+
+## Stop
+docker compose down
+
+## Notes
+- Minecraft: 1.21.1
+- Loader: Fabric
+- Modpack: cobblemon-fabric 1.7.1
+- Java: 21
+- Default port: 25565
