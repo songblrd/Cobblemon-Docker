@@ -6,9 +6,11 @@ Fabric-based Cobblemon server using Docker.
 - Docker + Docker Compose
 
 ## Start
+in terminal:
 docker compose up -d
 
 ## Stop
+in terminal:
 docker compose down
 
 ## Notes
@@ -17,3 +19,4 @@ docker compose down
 - Modpack: cobblemon-fabric 1.7.1
 - Java: 21
 - Default port: 25565
+- Will not restart unless stopped
