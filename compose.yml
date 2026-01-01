@@ -12,6 +12,7 @@ services:
       TYPE: "MODRINTH"
       MODRINTH_MODPACK: "https://modrinth.com/modpack/cobblemon-fabric/version/1.7.1"
       MODRINTH_VERSION: "1.7.1"
+      MODS: "https://modrinth.com/mod/legendary-monuments/version/7.4.jar"
       MEMORY: "8192M"
       MAX_PLAYERS: "25"
       MOTD: "COBBLEMON FOREVER!!"
