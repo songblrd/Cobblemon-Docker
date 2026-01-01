@@ -12,7 +12,12 @@ services:
       TYPE: "MODRINTH"
       MODRINTH_MODPACK: "https://modrinth.com/modpack/cobblemon-fabric/version/1.7.1"
       MODRINTH_VERSION: "1.7.1"
-      MODS: "https://cdn.modrinth.com/data/m6RyHSbV/versions/3Tk6TfFB/LegendaryMonuments-7.4.jar"
+      MODS: "https://cdn.modrinth.com/data/m6RyHSbV/versions/3Tk6TfFB/LegendaryMonuments-7.4.jar
+             https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar
+             https://cdn.modrinth.com/data/SszvX85I/versions/cTKlY8HR/mega_showdown-fabric-1.5.1%2B1.7.1%2B1.21.1-b-2.jar
+             https://cdn.modrinth.com/data/ySnjMzLg/versions/OkGF8Kho/accessories_compat_layer-fabric-0.1.10%2B1.21.1.jar
+             https://cdn.modrinth.com/data/AXY1OO9m/versions/FeaNqZjR/CobbleFurnies-fabric-1.0.jar
+             https://cdn.modrinth.com/data/BAscRYKm/versions/pwyEaKDs/chipped-fabric-1.20.1-3.0.7.jar"
       MEMORY: "8192M"
       MAX_PLAYERS: "25"
       MOTD: "COBBLEMON FOREVER!!"
