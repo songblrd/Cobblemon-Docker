@@ -19,4 +19,5 @@ docker compose down
 - Modpack: cobblemon-fabric 1.7.1
 - Java: 21
 - Default port: 25565
+- Default UDP Port: 24454
 - Will not restart unless stopped
