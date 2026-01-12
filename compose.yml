@@ -10,6 +10,14 @@ services:
       - "24454:24454/udp"
     environment:
       EULA: "TRUE"
+      OPS: |-
+        darkergion
+      ENABLE_WHITELIST: "true"
+      WHITELIST: |-
+        Jaydexoxo
+        darkergion
+        NWS_Kitboy
+        Thonk_
       TYPE: "MODRINTH"
       MODRINTH_MODPACK: "https://modrinth.com/modpack/cobbleverse/version/1.7.2"
       MODRINTH_PROJECTS: "simple-voice-chat@fabric-1.21.1"
