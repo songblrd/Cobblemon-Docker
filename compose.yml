@@ -25,5 +25,6 @@ services:
       USE_AIKAR_FLAGS: "true"
       USE_MEOWICE_FLAGS: "true"
     volumes:
-      - "./data:/world"
+      - "./data:/data"
+      - "./world:/data/world"
     restart: unless-stopped
