@@ -7,7 +7,6 @@ services:
     stdin_open: true
     ports:
       - "25565:25565"
-      - "24454:24454/udp"
     environment:
       EULA: "TRUE"
       OPS: |-
@@ -18,15 +17,13 @@ services:
         darkergion
         NWS_Kitboy
         Thonk_
-      TYPE: "MODRINTH"
-      MODRINTH_MODPACK: "https://modrinth.com/modpack/cobbleverse/version/1.7.2"
-      MODRINTH_PROJECTS: "simple-voice-chat@fabric-1.21.1"
-      MODRINTH_VERSION: "1.7.2"
+      TYPE: "NEOFORGE"
+      LEVEL: "world"
       MEMORY: "8192M"
       MAX_PLAYERS: "25"
-      MOTD: "COBBLEMON FOREVER!!"
+      MOTD: "ping @_songbird for issues"
       USE_AIKAR_FLAGS: "true"
       USE_MEOWICE_FLAGS: "true"
     volumes:
-      - "./data:/data"
+      - "./data:/world"
     restart: unless-stopped
